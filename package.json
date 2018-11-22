@@ -9,6 +9,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@gustavnikolaj/async-main-wrap": "^3.0.0",
+    "esm": "^3.0.84",
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^2.3.0"
+  },
   "devDependencies": {
     "eslint": "^5.9.0",
     "eslint-config-pretty-standard": "^2.0.0",

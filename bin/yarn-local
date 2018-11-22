@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+require = require("esm")(module); // eslint-disable-line no-global-assign
+const wrap = require("@gustavnikolaj/async-main-wrap");
+const { default: main } = require("../lib/cli.js");
+
+wrap(main)(process.cwd(), process.argv.slice(2));
