@@ -1,6 +1,6 @@
 {
   "name": "yarn-local",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Helper scripts for managing yarn when checked into repositories.",
   "scripts": {
     "lint": "eslint ."
