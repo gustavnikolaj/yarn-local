@@ -1,0 +1,20 @@
+{
+  "name": "yarn-local",
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-pretty-standard": "^2.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.2",
+    "unexpected": "^10.39.2"
+  }
+}
