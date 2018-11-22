@@ -1,7 +1,7 @@
 {
   "name": "yarn-local",
   "version": "0.0.0",
-  "description": "",
+  "description": "Helper scripts for managing yarn when checked into repositories.",
   "main": "",
   "scripts": {
     "lint": "eslint ."
@@ -16,5 +16,13 @@
     "eslint-plugin-prettier": "^3.0.0",
     "prettier": "^1.15.2",
     "unexpected": "^10.39.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavnikolaj/yarn-local.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gustavnikolaj/yarn-local/issues"
+  },
+  "homepage": "https://github.com/gustavnikolaj/yarn-local#readme"
 }
