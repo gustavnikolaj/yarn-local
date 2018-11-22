@@ -2,12 +2,20 @@
   "name": "yarn-local",
   "version": "0.0.0",
   "description": "Helper scripts for managing yarn when checked into repositories.",
-  "main": "",
   "scripts": {
     "lint": "eslint ."
   },
-  "keywords": [],
-  "author": "",
+  "bin": {
+    "yarn-local": "./bin/yarn-local"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "yarn"
+  ],
+  "author": "Gustav Nikolaj <gustavnikolaj@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@gustavnikolaj/async-main-wrap": "^3.0.0",
