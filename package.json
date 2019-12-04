@@ -19,7 +19,6 @@
   "license": "ISC",
   "dependencies": {
     "@gustavnikolaj/async-main-wrap": "^3.0.1",
-    "esm": "^3.2.5",
     "mkdirp": "^0.5.1",
     "node-fetch": "^2.3.0"
   },
